@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 7acb7ef86bda2964fb7211bbba0f5288
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Albra
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 519d0f3f514a62342ac41422360f5e14, type: 3}
+  - {fileID: 12800000, guid: 489751e9bb9355041a85c6cecaa12420, type: 3}
+  - {fileID: 12800000, guid: 867c40eef04a7694a84a14eae31b1a6f, type: 3}
+  - {fileID: 12800000, guid: 662994f2f788ce04285118a936234b9e, type: 3}
+  - {fileID: 12800000, guid: 758090d5e8b7a254981af25889f9be90, type: 3}
+  - {fileID: 12800000, guid: 76b0f5ea7a37c614791fb9e933d30f20, type: 3}
+  - {fileID: 12800000, guid: 499d568d016bc534194e72000185d769, type: 3}
+  - {fileID: 12800000, guid: 62ca234a65133464d85483aed6b507a9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1960 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5461dd954d914261a59619567d1dc18, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9137807d4a23894993f9e3b98287573a
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 9137807d4a23894993f9e3b98287573a
+    GuidInternal: 
+    m_lastTime: -8584771646514633613
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bc9c6d77fa151040af48f576ed504534
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: bc9c6d77fa151040af48f576ed504534
+    GuidInternal: 
+    m_lastTime: -8584771646516073600
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc9c6d77fa151040af48f576ed504534
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
+    ParentPath: SoundBanks\Default Work Unit
+    guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
+    GuidInternal: 
+    m_lastTime: -8584752344651087443
+    List:
+    - name: ALEAS_01
+      guid: 9aee7f42f03b4c4088780f8745249b2a
+      id: 1877151555
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
+      - ElementName: ALEAS_01
+        ObjectType: 7
+        guid: 9aee7f42f03b4c4088780f8745249b2a
+      Path: SoundBanks\Default Work Unit\ALEAS_01
+    - name: ALEAS_02
+      guid: 49350b709264f840877babeed0ced67e
+      id: 1877151552
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
+      - ElementName: ALEAS_02
+        ObjectType: 7
+        guid: 49350b709264f840877babeed0ced67e
+      Path: SoundBanks\Default Work Unit\ALEAS_02
+    - name: ALEAS_04
+      guid: c299de87ddca0e45a2fe3c90a7d9d114
+      id: 1877151558
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
+      - ElementName: ALEAS_04
+        ObjectType: 7
+        guid: c299de87ddca0e45a2fe3c90a7d9d114
+      Path: SoundBanks\Default Work Unit\ALEAS_04
+    - name: ALEAS_05
+      guid: a311742fa3ca9941a2d08fea21539394
+      id: 1877151559
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
+      - ElementName: ALEAS_05
+        ObjectType: 7
+        guid: a311742fa3ca9941a2d08fea21539394
+      Path: SoundBanks\Default Work Unit\ALEAS_05
+  - PhysicalPath: SoundBanks\TEST.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TEST
+      ObjectType: 12
+      guid: bbc7c0e913129644a7c02d5ea6b4f936
+    ParentPath: SoundBanks\TEST
+    guid: bbc7c0e913129644a7c02d5ea6b4f936
+    GuidInternal: 
+    m_lastTime: -8584752267643751937
+    List:
+    - name: TEST_01
+      guid: c4541909ca0aa544ae09aade495b706a
+      id: 3020476437
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TEST
+        ObjectType: 12
+        guid: bbc7c0e913129644a7c02d5ea6b4f936
+      - ElementName: TEST_01
+        ObjectType: 7
+        guid: c4541909ca0aa544ae09aade495b706a
+      Path: SoundBanks\TEST\TEST_01
+    - name: TEST_02
+      guid: 9298ab8bb31dc140bd74e1ecf48b1d7a
+      id: 3020476438
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TEST
+        ObjectType: 12
+        guid: bbc7c0e913129644a7c02d5ea6b4f936
+      - ElementName: TEST_02
+        ObjectType: 7
+        guid: 9298ab8bb31dc140bd74e1ecf48b1d7a
+      Path: SoundBanks\TEST\TEST_02
+    - name: TEST_03
+      guid: 123162297eadbd4da6c7ca33272ee28f
+      id: 3020476439
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TEST
+        ObjectType: 12
+        guid: bbc7c0e913129644a7c02d5ea6b4f936
+      - ElementName: TEST_03
+        ObjectType: 7
+        guid: 123162297eadbd4da6c7ca33272ee28f
+      Path: SoundBanks\TEST\TEST_03
+  EventWwu:
+  - PhysicalPath: Events\ALEAS_01.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: ALEAS_01
+      ObjectType: 12
+      guid: ca419469d8c01843ae8ac45169beac2d
+    ParentPath: Events\ALEAS_01
+    guid: ca419469d8c01843ae8ac45169beac2d
+    GuidInternal: 
+    m_lastTime: -8584752411936454278
+    List: []
+  - PhysicalPath: Events\ALEAS_02.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: ALEAS_02
+      ObjectType: 12
+      guid: 613aebc69870d440968f8cbab8d49cbf
+    ParentPath: Events\ALEAS_02
+    guid: 613aebc69870d440968f8cbab8d49cbf
+    GuidInternal: 
+    m_lastTime: -8584752411936454278
+    List:
+    - name: Eo_01
+      guid: d5b9041378d48a4a8db2395f8267871b
+      id: 2636441965
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_01
+        ObjectType: 3
+        guid: d5b9041378d48a4a8db2395f8267871b
+      Path: Events\ALEAS_02\Eo_01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_02
+      guid: a1e2af54c8ba9344a492042835c93197
+      id: 2636441966
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_02
+        ObjectType: 3
+        guid: a1e2af54c8ba9344a492042835c93197
+      Path: Events\ALEAS_02\Eo_02
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_03
+      guid: 6d0b211d60f33949bc744b8e5ef0f896
+      id: 2636441967
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_03
+        ObjectType: 3
+        guid: 6d0b211d60f33949bc744b8e5ef0f896
+      Path: Events\ALEAS_02\Eo_03
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_04
+      guid: 851f56c279c1a24f818e1e31f8a35209
+      id: 2636441960
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_04
+        ObjectType: 3
+        guid: 851f56c279c1a24f818e1e31f8a35209
+      Path: Events\ALEAS_02\Eo_04
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_05
+      guid: 50a767d6f1e0054db59bf45647fad937
+      id: 2636441961
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_05
+        ObjectType: 3
+        guid: 50a767d6f1e0054db59bf45647fad937
+      Path: Events\ALEAS_02\Eo_05
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_06
+      guid: e87b0655a530fa42885f95c5a7cdf783
+      id: 2636441962
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_06
+        ObjectType: 3
+        guid: e87b0655a530fa42885f95c5a7cdf783
+      Path: Events\ALEAS_02\Eo_06
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_07
+      guid: 4ad5b108f051134b846851b77e783f7e
+      id: 2636441963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_07
+        ObjectType: 3
+        guid: 4ad5b108f051134b846851b77e783f7e
+      Path: Events\ALEAS_02\Eo_07
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_08
+      guid: 7a607d9ea076e742b23766eefd50f094
+      id: 2636441956
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_08
+        ObjectType: 3
+        guid: 7a607d9ea076e742b23766eefd50f094
+      Path: Events\ALEAS_02\Eo_08
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_09
+      guid: cd7370fab18a754f9930fdbf8a3c9288
+      id: 2636441957
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_09
+        ObjectType: 3
+        guid: cd7370fab18a754f9930fdbf8a3c9288
+      Path: Events\ALEAS_02\Eo_09
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_10
+      guid: 5972cd0d3c57844191ef69333ec3ed67
+      id: 2653219551
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_10
+        ObjectType: 3
+        guid: 5972cd0d3c57844191ef69333ec3ed67
+      Path: Events\ALEAS_02\Eo_10
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_11
+      guid: a917bc161e15ec429530a7127f68e5b3
+      id: 2653219550
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_11
+        ObjectType: 3
+        guid: a917bc161e15ec429530a7127f68e5b3
+      Path: Events\ALEAS_02\Eo_11
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_12
+      guid: 6eaeb085d54920489ff6db683b0ebbaf
+      id: 2653219549
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_12
+        ObjectType: 3
+        guid: 6eaeb085d54920489ff6db683b0ebbaf
+      Path: Events\ALEAS_02\Eo_12
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_13
+      guid: 7e2de7a563ca5944bba492da03c38e86
+      id: 2653219548
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_13
+        ObjectType: 3
+        guid: 7e2de7a563ca5944bba492da03c38e86
+      Path: Events\ALEAS_02\Eo_13
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_14
+      guid: 498d3ba5489e9047812cb25dd2acfb7d
+      id: 2653219547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_14
+        ObjectType: 3
+        guid: 498d3ba5489e9047812cb25dd2acfb7d
+      Path: Events\ALEAS_02\Eo_14
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_15
+      guid: c455d996da07204a917acee9eb762294
+      id: 2653219546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_15
+        ObjectType: 3
+        guid: c455d996da07204a917acee9eb762294
+      Path: Events\ALEAS_02\Eo_15
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_16
+      guid: 0aa43d6540273044a12228183249f367
+      id: 2653219545
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_16
+        ObjectType: 3
+        guid: 0aa43d6540273044a12228183249f367
+      Path: Events\ALEAS_02\Eo_16
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_17
+      guid: 9ae558276cab694f97a74ba0053c4598
+      id: 2653219544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_17
+        ObjectType: 3
+        guid: 9ae558276cab694f97a74ba0053c4598
+      Path: Events\ALEAS_02\Eo_17
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_18
+      guid: cea5837e43abb9429b5f113505b750fa
+      id: 2653219543
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_18
+        ObjectType: 3
+        guid: cea5837e43abb9429b5f113505b750fa
+      Path: Events\ALEAS_02\Eo_18
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_19
+      guid: b712f3d788061e4fb537072d74fc7866
+      id: 2653219542
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_19
+        ObjectType: 3
+        guid: b712f3d788061e4fb537072d74fc7866
+      Path: Events\ALEAS_02\Eo_19
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_20
+      guid: c38e57b639a1b1439b4327a79abb7fbb
+      id: 2669997234
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_20
+        ObjectType: 3
+        guid: c38e57b639a1b1439b4327a79abb7fbb
+      Path: Events\ALEAS_02\Eo_20
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_21
+      guid: d3cede655502e3439c7883613e5abfe0
+      id: 2669997235
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_21
+        ObjectType: 3
+        guid: d3cede655502e3439c7883613e5abfe0
+      Path: Events\ALEAS_02\Eo_21
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_22
+      guid: e72ef3c4d8a47f41a0d3433c1e9ff999
+      id: 2669997232
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_22
+        ObjectType: 3
+        guid: e72ef3c4d8a47f41a0d3433c1e9ff999
+      Path: Events\ALEAS_02\Eo_22
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_23
+      guid: 00ece768ed07254db16fa9b73a72ebb2
+      id: 2669997233
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_23
+        ObjectType: 3
+        guid: 00ece768ed07254db16fa9b73a72ebb2
+      Path: Events\ALEAS_02\Eo_23
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_24
+      guid: 8cc40b2df1274f49a38dba92471a6f42
+      id: 2669997238
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_24
+        ObjectType: 3
+        guid: 8cc40b2df1274f49a38dba92471a6f42
+      Path: Events\ALEAS_02\Eo_24
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_25
+      guid: b44c4877703df145b25df49e6beb6388
+      id: 2669997239
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_25
+        ObjectType: 3
+        guid: b44c4877703df145b25df49e6beb6388
+      Path: Events\ALEAS_02\Eo_25
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_26
+      guid: 048a077d66a58440b7c14907145da222
+      id: 2669997236
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_26
+        ObjectType: 3
+        guid: 048a077d66a58440b7c14907145da222
+      Path: Events\ALEAS_02\Eo_26
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_27
+      guid: d5d12a96b2a26049a20d1b221aa000b9
+      id: 2669997237
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_27
+        ObjectType: 3
+        guid: d5d12a96b2a26049a20d1b221aa000b9
+      Path: Events\ALEAS_02\Eo_27
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_28
+      guid: 02ec96855457b241bbcf8e23539e0d1c
+      id: 2669997242
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_28
+        ObjectType: 3
+        guid: 02ec96855457b241bbcf8e23539e0d1c
+      Path: Events\ALEAS_02\Eo_28
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_29
+      guid: e52fa460a5b9844cbfd0a89ceec06120
+      id: 2669997243
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_29
+        ObjectType: 3
+        guid: e52fa460a5b9844cbfd0a89ceec06120
+      Path: Events\ALEAS_02\Eo_29
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_30
+      guid: 5834a1780f3ecd49a9d87f60fb27105b
+      id: 2686774821
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_30
+        ObjectType: 3
+        guid: 5834a1780f3ecd49a9d87f60fb27105b
+      Path: Events\ALEAS_02\Eo_30
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_31
+      guid: 667c1d105a487049b7b1c5a4b4012629
+      id: 2686774820
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_31
+        ObjectType: 3
+        guid: 667c1d105a487049b7b1c5a4b4012629
+      Path: Events\ALEAS_02\Eo_31
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_32
+      guid: 8e3f6531dac73042981e305a11986ad9
+      id: 2686774823
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_32
+        ObjectType: 3
+        guid: 8e3f6531dac73042981e305a11986ad9
+      Path: Events\ALEAS_02\Eo_32
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_33
+      guid: 3963de84d982e4428b99b6419371a8e7
+      id: 2686774822
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_33
+        ObjectType: 3
+        guid: 3963de84d982e4428b99b6419371a8e7
+      Path: Events\ALEAS_02\Eo_33
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_34
+      guid: f4ee19c3a66fb5418c91f5d67fb6f71f
+      id: 2686774817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_34
+        ObjectType: 3
+        guid: f4ee19c3a66fb5418c91f5d67fb6f71f
+      Path: Events\ALEAS_02\Eo_34
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_35
+      guid: cea81fde08a45f4cbdf630694414d1cf
+      id: 2686774816
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_35
+        ObjectType: 3
+        guid: cea81fde08a45f4cbdf630694414d1cf
+      Path: Events\ALEAS_02\Eo_35
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_36
+      guid: ed8ea0f6a79df944a1eba72b7a20db15
+      id: 2686774819
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_36
+        ObjectType: 3
+        guid: ed8ea0f6a79df944a1eba72b7a20db15
+      Path: Events\ALEAS_02\Eo_36
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_37
+      guid: 635580202c553d46b2759d6ba57c7dba
+      id: 2686774818
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_37
+        ObjectType: 3
+        guid: 635580202c553d46b2759d6ba57c7dba
+      Path: Events\ALEAS_02\Eo_37
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_38
+      guid: ca603958da56a6409272f6a03f7ef75a
+      id: 2686774829
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_38
+        ObjectType: 3
+        guid: ca603958da56a6409272f6a03f7ef75a
+      Path: Events\ALEAS_02\Eo_38
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Eo_39
+      guid: 78d3464dcf9bc146a253f0d2ba0c44b8
+      id: 2686774828
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Eo_39
+        ObjectType: 3
+        guid: 78d3464dcf9bc146a253f0d2ba0c44b8
+      Path: Events\ALEAS_02\Eo_39
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Eolithe
+      guid: c63dd9ffa1f9c64eb89e2005fef9dea4
+      id: 437147896
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_02
+        ObjectType: 12
+        guid: 613aebc69870d440968f8cbab8d49cbf
+      - ElementName: Play_Eolithe
+        ObjectType: 3
+        guid: c63dd9ffa1f9c64eb89e2005fef9dea4
+      Path: Events\ALEAS_02\Play_Eolithe
+      maxAttenuation: 0
+      maxDuration: 80.052124
+      minDuration: 0
+  - PhysicalPath: Events\ALEAS_04.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: ALEAS_04
+      ObjectType: 12
+      guid: 8993ac9870cb264c89a19703decf3f47
+    ParentPath: Events\ALEAS_04
+    guid: 8993ac9870cb264c89a19703decf3f47
+    GuidInternal: 
+    m_lastTime: -8584752411936444277
+    List:
+    - name: Piste_01
+      guid: 748dd84f96633942a107248abb93a04d
+      id: 4255540476
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_04
+        ObjectType: 12
+        guid: 8993ac9870cb264c89a19703decf3f47
+      - ElementName: Piste_01
+        ObjectType: 3
+        guid: 748dd84f96633942a107248abb93a04d
+      Path: Events\ALEAS_04\Piste_01
+      maxAttenuation: 0
+      maxDuration: 208.24892
+      minDuration: 208.24892
+    - name: Piste_02
+      guid: fbf45bd8760130498b6e8afc622cb7ae
+      id: 4255540479
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_04
+        ObjectType: 12
+        guid: 8993ac9870cb264c89a19703decf3f47
+      - ElementName: Piste_02
+        ObjectType: 3
+        guid: fbf45bd8760130498b6e8afc622cb7ae
+      Path: Events\ALEAS_04\Piste_02
+      maxAttenuation: 0
+      maxDuration: 177.72142
+      minDuration: 177.72142
+    - name: Piste_03
+      guid: 9d2cb2dce54b0a4da8f33b0f830a9d2f
+      id: 4255540478
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_04
+        ObjectType: 12
+        guid: 8993ac9870cb264c89a19703decf3f47
+      - ElementName: Piste_03
+        ObjectType: 3
+        guid: 9d2cb2dce54b0a4da8f33b0f830a9d2f
+      Path: Events\ALEAS_04\Piste_03
+      maxAttenuation: 0
+      maxDuration: 114.96804
+      minDuration: 114.96804
+    - name: Piste_04
+      guid: 874d645a79d02c46b23cf93823cb7afb
+      id: 4255540473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_04
+        ObjectType: 12
+        guid: 8993ac9870cb264c89a19703decf3f47
+      - ElementName: Piste_04
+        ObjectType: 3
+        guid: 874d645a79d02c46b23cf93823cb7afb
+      Path: Events\ALEAS_04\Piste_04
+      maxAttenuation: 0
+      maxDuration: 83.870705
+      minDuration: 83.870705
+    - name: Piste_05
+      guid: c82226cd6fb91c47b1eb0b61cd3e5b76
+      id: 4255540472
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_04
+        ObjectType: 12
+        guid: 8993ac9870cb264c89a19703decf3f47
+      - ElementName: Piste_05
+        ObjectType: 3
+        guid: c82226cd6fb91c47b1eb0b61cd3e5b76
+      Path: Events\ALEAS_04\Piste_05
+      maxAttenuation: 0
+      maxDuration: 151.1133
+      minDuration: 151.1133
+    - name: Piste_06
+      guid: aa335eb7968b8446b20c1977d503c48e
+      id: 4255540475
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_04
+        ObjectType: 12
+        guid: 8993ac9870cb264c89a19703decf3f47
+      - ElementName: Piste_06
+        ObjectType: 3
+        guid: aa335eb7968b8446b20c1977d503c48e
+      Path: Events\ALEAS_04\Piste_06
+      maxAttenuation: 0
+      maxDuration: 102.44783
+      minDuration: 102.44783
+    - name: Piste_07
+      guid: 60a32693306cf84f9b9183393e72ecb2
+      id: 4255540474
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_04
+        ObjectType: 12
+        guid: 8993ac9870cb264c89a19703decf3f47
+      - ElementName: Piste_07
+        ObjectType: 3
+        guid: 60a32693306cf84f9b9183393e72ecb2
+      Path: Events\ALEAS_04\Piste_07
+      maxAttenuation: 0
+      maxDuration: 185.64725
+      minDuration: 185.64725
+  - PhysicalPath: Events\ALEAS_05.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: ALEAS_05
+      ObjectType: 12
+      guid: d2c0ae1b4d37ea4f8c3146bb9f7d3d49
+    ParentPath: Events\ALEAS_05
+    guid: d2c0ae1b4d37ea4f8c3146bb9f7d3d49
+    GuidInternal: 
+    m_lastTime: -8584752411936444277
+    List:
+    - name: Poeme
+      guid: 8d8286c73ea4bd4d84807baa0fa37914
+      id: 1924678025
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ALEAS_05
+        ObjectType: 12
+        guid: d2c0ae1b4d37ea4f8c3146bb9f7d3d49
+      - ElementName: Poeme
+        ObjectType: 3
+        guid: 8d8286c73ea4bd4d84807baa0fa37914
+      Path: Events\ALEAS_05\Poeme
+      maxAttenuation: 0
+      maxDuration: 37
+      minDuration: 37
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cfbd18caa1675e459987d98bcc998b04
+    ParentPath: Events\Default Work Unit
+    guid: cfbd18caa1675e459987d98bcc998b04
+    GuidInternal: 
+    m_lastTime: -8584752623464713024
+    List:
+    - name: BOOT
+      guid: b6954d8f04350d47bd71ed9183a8d0c5
+      id: 1761500993
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cfbd18caa1675e459987d98bcc998b04
+      - ElementName: BOOT
+        ObjectType: 3
+        guid: b6954d8f04350d47bd71ed9183a8d0c5
+      Path: Events\Default Work Unit\BOOT
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Post_Event_Test_Aleas_01
+      guid: 3bf94fb95dbf2c4ab0f5379998f3e1dd
+      id: 949412718
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cfbd18caa1675e459987d98bcc998b04
+      - ElementName: Post_Event_Test_Aleas_01
+        ObjectType: 3
+        guid: 3bf94fb95dbf2c4ab0f5379998f3e1dd
+      Path: Events\Default Work Unit\Post_Event_Test_Aleas_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Transition_Intro_Aleas
+      guid: 93251fa8de9d9c43bafd4ca7e12882fb
+      id: 3739746622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cfbd18caa1675e459987d98bcc998b04
+      - ElementName: Transition_Intro_Aleas
+        ObjectType: 3
+        guid: 93251fa8de9d9c43bafd4ca7e12882fb
+      Path: Events\Default Work Unit\Transition_Intro_Aleas
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\TESTS.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TESTS
+      ObjectType: 12
+      guid: 1cfb6545a5907b4285dafffc7dea9f2b
+    ParentPath: Events\TESTS
+    guid: 1cfb6545a5907b4285dafffc7dea9f2b
+    GuidInternal: 
+    m_lastTime: -8584752512058885685
+    List:
+    - name: Test_Aleas_01
+      guid: df397f190b00284daaebd935c011cacf
+      id: 2872867098
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TESTS
+        ObjectType: 12
+        guid: 1cfb6545a5907b4285dafffc7dea9f2b
+      - ElementName: Test_Aleas_01
+        ObjectType: 3
+        guid: df397f190b00284daaebd935c011cacf
+      Path: Events\TESTS\Test_Aleas_01
+      maxAttenuation: 0
+      maxDuration: 561.561
+      minDuration: 561.561
+    - name: Test_Aleas_02
+      guid: 969a392326ef8b419728b61c1e6d8386
+      id: 2872867097
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TESTS
+        ObjectType: 12
+        guid: 1cfb6545a5907b4285dafffc7dea9f2b
+      - ElementName: Test_Aleas_02
+        ObjectType: 3
+        guid: 969a392326ef8b419728b61c1e6d8386
+      Path: Events\TESTS\Test_Aleas_02
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Test_Aleas_03
+      guid: 0afa3bc2e911114b8563a67bc54fc2e3
+      id: 2872867096
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TESTS
+        ObjectType: 12
+        guid: 1cfb6545a5907b4285dafffc7dea9f2b
+      - ElementName: Test_Aleas_03
+        ObjectType: 3
+        guid: 0afa3bc2e911114b8563a67bc54fc2e3
+      Path: Events\TESTS\Test_Aleas_03
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4d346f5b49aa5e41af00b0f7a9bde249
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 4d346f5b49aa5e41af00b0f7a9bde249
+    GuidInternal: 
+    m_lastTime: -8584752411936444277
+    List:
+    - name: PAN_Paysage
+      guid: 4e05ac89d28e014e84f7e60ece9a6027
+      id: 4014498361
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d346f5b49aa5e41af00b0f7a9bde249
+      - ElementName: PAN_Paysage
+        ObjectType: 13
+        guid: 4e05ac89d28e014e84f7e60ece9a6027
+      Path: Game Parameters\Default Work Unit\PAN_Paysage
+    - name: Volume
+      guid: fbcb144f68c37e4e8412ea468bca3d7a
+      id: 2415836739
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d346f5b49aa5e41af00b0f7a9bde249
+      - ElementName: Volume
+        ObjectType: 13
+        guid: fbcb144f68c37e4e8412ea468bca3d7a
+      Path: Game Parameters\Default Work Unit\Volume
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1e95843e280c03458e31707cce57a283
+    ParentPath: States\Default Work Unit
+    guid: 1e95843e280c03458e31707cce57a283
+    GuidInternal: 
+    m_lastTime: -8584771646514643619
+    List:
+    - name: SoundStates
+      guid: c34e197f1c6f534c936c143e6de30fca
+      id: 756630120
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1e95843e280c03458e31707cce57a283
+      - ElementName: SoundStates
+        ObjectType: 9
+        guid: c34e197f1c6f534c936c143e6de30fca
+      Path: States\Default Work Unit\SoundStates
+      values:
+      - name: None
+        guid: e17b2d8698ce6f4e947384c6f204515f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1e95843e280c03458e31707cce57a283
+        - ElementName: SoundStates
+          ObjectType: 9
+          guid: c34e197f1c6f534c936c143e6de30fca
+        - ElementName: None
+          ObjectType: 8
+          guid: e17b2d8698ce6f4e947384c6f204515f
+      - name: Paused
+        guid: bbd1e2a56d769e4bba0709291dabd68b
+        id: 319258907
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1e95843e280c03458e31707cce57a283
+        - ElementName: SoundStates
+          ObjectType: 9
+          guid: c34e197f1c6f534c936c143e6de30fca
+        - ElementName: Paused
+          ObjectType: 8
+          guid: bbd1e2a56d769e4bba0709291dabd68b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+    ParentPath: Switches\Default Work Unit
+    guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+    GuidInternal: 
+    m_lastTime: -8584771646514633613
+    List:
+    - name: EOLITHES
+      guid: 1111a50be4c7774dad6ef434d968b687
+      id: 2060198956
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+      - ElementName: EOLITHES
+        ObjectType: 11
+        guid: 1111a50be4c7774dad6ef434d968b687
+      Path: Switches\Default Work Unit\EOLITHES
+      values:
+      - name: Eolithe_01
+        guid: 2831800d6851f74c91a4de334ab5eab4
+        id: 518197153
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_01
+          ObjectType: 10
+          guid: 2831800d6851f74c91a4de334ab5eab4
+      - name: Eolithe_02
+        guid: 2695f78f6afb7c4ca91ace117b0560d8
+        id: 518197154
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_02
+          ObjectType: 10
+          guid: 2695f78f6afb7c4ca91ace117b0560d8
+      - name: Eolithe_03
+        guid: e4420a851e48d74f83e45854b2d5f79c
+        id: 518197155
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_03
+          ObjectType: 10
+          guid: e4420a851e48d74f83e45854b2d5f79c
+      - name: Eolithe_04
+        guid: 037f1ee8015c494a9ea20623603019d6
+        id: 518197156
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_04
+          ObjectType: 10
+          guid: 037f1ee8015c494a9ea20623603019d6
+      - name: Eolithe_05
+        guid: fe621cbc7ece3e4eb9740aad3c8d418e
+        id: 518197157
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_05
+          ObjectType: 10
+          guid: fe621cbc7ece3e4eb9740aad3c8d418e
+      - name: Eolithe_06
+        guid: 62b244f57d261a4caae6b73db0aecf85
+        id: 518197158
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_06
+          ObjectType: 10
+          guid: 62b244f57d261a4caae6b73db0aecf85
+      - name: Eolithe_07
+        guid: 5674b23a72a08f4680c5c97bc2eba8e4
+        id: 518197159
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_07
+          ObjectType: 10
+          guid: 5674b23a72a08f4680c5c97bc2eba8e4
+      - name: Eolithe_08
+        guid: 697de9a3c217794ba45ae5e137398b8f
+        id: 518197160
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_08
+          ObjectType: 10
+          guid: 697de9a3c217794ba45ae5e137398b8f
+      - name: Eolithe_09
+        guid: 17069c37f0bf204eb2aa08ea5c2f8b7c
+        id: 518197161
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_09
+          ObjectType: 10
+          guid: 17069c37f0bf204eb2aa08ea5c2f8b7c
+      - name: Eolithe_10
+        guid: 65ca68e680a7a04896b2417caeb838fe
+        id: 534974739
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_10
+          ObjectType: 10
+          guid: 65ca68e680a7a04896b2417caeb838fe
+      - name: Eolithe_11
+        guid: 0b60cbcd2ad5ac4cabb0ba8a31509703
+        id: 534974738
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_11
+          ObjectType: 10
+          guid: 0b60cbcd2ad5ac4cabb0ba8a31509703
+      - name: Eolithe_12
+        guid: 9a8516ec1ada794188acf16d734cfb12
+        id: 534974737
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_12
+          ObjectType: 10
+          guid: 9a8516ec1ada794188acf16d734cfb12
+      - name: Eolithe_13
+        guid: b371136f637e7b428efbc16635d6972b
+        id: 534974736
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_13
+          ObjectType: 10
+          guid: b371136f637e7b428efbc16635d6972b
+      - name: Eolithe_14
+        guid: e1dd3be0a93a5d4e828009ab234f080c
+        id: 534974743
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_14
+          ObjectType: 10
+          guid: e1dd3be0a93a5d4e828009ab234f080c
+      - name: Eolithe_15
+        guid: 6d7dd79dd530684dafa5b35dcf9ea4d6
+        id: 534974742
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_15
+          ObjectType: 10
+          guid: 6d7dd79dd530684dafa5b35dcf9ea4d6
+      - name: Eolithe_16
+        guid: 63040a05a4e1b746bbc6fd78a38fb6b0
+        id: 534974741
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_16
+          ObjectType: 10
+          guid: 63040a05a4e1b746bbc6fd78a38fb6b0
+      - name: Eolithe_17
+        guid: 71597f9671a05d4a96ef973b5ba1a51a
+        id: 534974740
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_17
+          ObjectType: 10
+          guid: 71597f9671a05d4a96ef973b5ba1a51a
+      - name: Eolithe_18
+        guid: 7b742606eb492844b6cbb6d5e5db91ff
+        id: 534974747
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_18
+          ObjectType: 10
+          guid: 7b742606eb492844b6cbb6d5e5db91ff
+      - name: Eolithe_19
+        guid: fdbc15665735a843b5b351a2c5ab3044
+        id: 534974746
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_19
+          ObjectType: 10
+          guid: fdbc15665735a843b5b351a2c5ab3044
+      - name: Eolithe_20
+        guid: 404958f2f2aae14ba165e1a7b625a882
+        id: 551752326
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_20
+          ObjectType: 10
+          guid: 404958f2f2aae14ba165e1a7b625a882
+      - name: Eolithe_21
+        guid: 4728dac13eb9974084a8b19863992256
+        id: 551752327
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_21
+          ObjectType: 10
+          guid: 4728dac13eb9974084a8b19863992256
+      - name: Eolithe_22
+        guid: d79d4a3fc59bbb4aa1ce5f4281808141
+        id: 551752324
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_22
+          ObjectType: 10
+          guid: d79d4a3fc59bbb4aa1ce5f4281808141
+      - name: Eolithe_23
+        guid: 8be06c00b26d864991204a89a8026535
+        id: 551752325
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_23
+          ObjectType: 10
+          guid: 8be06c00b26d864991204a89a8026535
+      - name: Eolithe_24
+        guid: 3db7374d29930e49b5a83d65fd23a721
+        id: 551752322
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_24
+          ObjectType: 10
+          guid: 3db7374d29930e49b5a83d65fd23a721
+      - name: Eolithe_25
+        guid: 46d6deacede20347ab5ff67f793ebd5e
+        id: 551752323
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_25
+          ObjectType: 10
+          guid: 46d6deacede20347ab5ff67f793ebd5e
+      - name: Eolithe_26
+        guid: 2bbcc457ce7a454aa877a35d98610b17
+        id: 551752320
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_26
+          ObjectType: 10
+          guid: 2bbcc457ce7a454aa877a35d98610b17
+      - name: Eolithe_27
+        guid: 163a45152fd939469b40aa0da1931236
+        id: 551752321
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_27
+          ObjectType: 10
+          guid: 163a45152fd939469b40aa0da1931236
+      - name: Eolithe_28
+        guid: 705af98c7aa780488bdc0210a7d22fd3
+        id: 551752334
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_28
+          ObjectType: 10
+          guid: 705af98c7aa780488bdc0210a7d22fd3
+      - name: Eolithe_29
+        guid: a38106ef3fcf0f4fb61278f045bf7b0d
+        id: 551752335
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_29
+          ObjectType: 10
+          guid: a38106ef3fcf0f4fb61278f045bf7b0d
+      - name: Eolithe_30
+        guid: d490599feae623419f890205a62bbf0f
+        id: 568530041
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_30
+          ObjectType: 10
+          guid: d490599feae623419f890205a62bbf0f
+      - name: Eolithe_31
+        guid: 5b0cae5287265e4a995965007920f576
+        id: 568530040
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_31
+          ObjectType: 10
+          guid: 5b0cae5287265e4a995965007920f576
+      - name: Eolithe_32
+        guid: 6116dac03db4f64c838208cef7573551
+        id: 568530043
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_32
+          ObjectType: 10
+          guid: 6116dac03db4f64c838208cef7573551
+      - name: Eolithe_33
+        guid: aaa62b6697899d4cb33ec0ec0eb02b87
+        id: 568530042
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_33
+          ObjectType: 10
+          guid: aaa62b6697899d4cb33ec0ec0eb02b87
+      - name: Eolithe_34
+        guid: 9165c2f50b0d814e9ef5eec0012beb13
+        id: 568530045
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_34
+          ObjectType: 10
+          guid: 9165c2f50b0d814e9ef5eec0012beb13
+      - name: Eolithe_35
+        guid: 248467aa7a5df142aa370d5036006cf1
+        id: 568530044
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_35
+          ObjectType: 10
+          guid: 248467aa7a5df142aa370d5036006cf1
+      - name: Eolithe_36
+        guid: 3c58fe732d82e54bb35eee54831c8bfc
+        id: 568530047
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_36
+          ObjectType: 10
+          guid: 3c58fe732d82e54bb35eee54831c8bfc
+      - name: Eolithe_37
+        guid: 61c2de5e483f3047bdb97e9b79e97b37
+        id: 568530046
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_37
+          ObjectType: 10
+          guid: 61c2de5e483f3047bdb97e9b79e97b37
+      - name: Eolithe_38
+        guid: 4044de46b39f3942b6ddc3ddfc51fbc6
+        id: 568530033
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_38
+          ObjectType: 10
+          guid: 4044de46b39f3942b6ddc3ddfc51fbc6
+      - name: Eolithe_39
+        guid: 128d0b64ade61d47a0b597622f829280
+        id: 568530032
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6b5b25ed248c2f47a0267e1bc40a7c76
+        - ElementName: EOLITHES
+          ObjectType: 11
+          guid: 1111a50be4c7774dad6ef434d968b687
+        - ElementName: Eolithe_39
+          ObjectType: 10
+          guid: 128d0b64ade61d47a0b597622f829280
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0561640dd0fbd441a7f4ca17e069978e
+    ParentPath: Triggers\Default Work Unit
+    guid: 0561640dd0fbd441a7f4ca17e069978e
+    GuidInternal: 
+    m_lastTime: -8584771646514633613
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 050000000700000030000000380000003e00000045000000460000004b0000005700000058000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 
